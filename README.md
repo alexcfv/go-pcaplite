@@ -154,9 +154,9 @@ type Packet struct {
 
 ```golang
 Extra{
-    "DNS_Query" : DNS
-    "ARP_SourceIP" : SRCARP
-    "ARP_DestIP" : DESTARP
+    "DNS_Query" : DNS,
+    "ARP_SourceIP" : SRCARP,
+    "ARP_DestIP" : DESTARP,
     "TLS_SNI" : SNI
 }
 ```
