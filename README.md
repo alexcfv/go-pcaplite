@@ -1,4 +1,4 @@
-# 🕵️‍♂️ go-pcaplite – Lightweight Network Sniffer in Go
+# 🕵️‍♂️ go-pcaplite – Lightweight Network Sniffer Go lib
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/alexcfv/go-pcaplite.svg)](https://pkg.go.dev/github.com/alexcfv/go-pcaplite)
 [![Go Report Card](https://goreportcard.com/badge/github.com/alexcfv/go-pcaplite)](https://goreportcard.com/report/github.com/alexcfv/go-pcaplite)
