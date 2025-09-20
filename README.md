@@ -82,7 +82,7 @@ import (
 func main() {
     opts := pcaplite.CaptureOptions{
         Filter:  "tcp port 443 or udp or arp or icmp", // HTTPS + other protocols
-        Promisc: true,
+        Promisc: true, //promisc mode
     }
 
     packets, err := pcaplite.Capture("en0", opts) //en0 macOS interface
