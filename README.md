@@ -21,7 +21,6 @@ It wraps `gopacket` and simplifies packet sniffing with an easy-to-use API.
 - 📡 **Live packet capture** from any interface  
 - 🔍 Supports **BPF filters** (tcp, udp, icmp, arp, etc.)  
 - 📝 Extracts **protocol metadata** (DNS, ARP, etc.)  
-- 🖥️ Cross-platform: Linux, macOS, Windows  
 - ⚡ Designed for simplicity and integration into other tools  
 
 ---
