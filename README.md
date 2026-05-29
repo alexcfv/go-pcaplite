@@ -9,23 +9,23 @@
 
 ---
 
-## 🚀 Overview
+## Overview
 
 `go-pcaplite` is a **lightweight Go library** for capturing and inspecting network traffic in real time.  
 It wraps `gopacket` and simplifies packet sniffing with an easy-to-use API.  
 
 ---
 
-## 🔥 Features
+## Features
 
-- 📡 **Live packet capture** from any interface  
-- 🔍 Supports **BPF filters** (tcp, udp, icmp, arp, etc.)  
-- 📝 Extracts **protocol metadata** (DNS, ARP, etc.)  
-- ⚡ Designed for simplicity and integration into other tools  
+-  **Live packet capture** from any interface  
+-  Supports **BPF filters** (tcp, udp, icmp, arp, etc.)  
+-  Extracts **protocol metadata** (DNS, ARP, etc.)  
+-  Designed for simplicity and integration into other tools  
 
 ---
 
-## 🛠️ Installation
+##  Installation
 
 ```bash
 go get github.com/alexcfv/go-pcaplite
@@ -33,7 +33,7 @@ go get github.com/alexcfv/go-pcaplite
 
 ---
 
-## 🔑 Running on Different Operating Systems
+##  Running on Different Operating Systems
 
 | OS          | How to run                                                            |
 | ----------- | --------------------------------------------------------------------- |
@@ -43,7 +43,7 @@ go get github.com/alexcfv/go-pcaplite
 
 ---
 
-## 🌐 Common Network Interfaces
+##  Common Network Interfaces
 
 | OS          | Typical Interfaces                               |
 | ----------- | ------------------------------------------------ |
@@ -53,7 +53,7 @@ go get github.com/alexcfv/go-pcaplite
 
 ---
 
-## 🔍 Example Filters (BPF Syntax)
+##  Example Filters (BPF Syntax)
 
 | Filter                | Description                    |
 | --------------------- | ------------------------------ |
@@ -67,7 +67,7 @@ go get github.com/alexcfv/go-pcaplite
 
 ---
 
-## 📦 Example
+##  Example
 
 ```golang
 package main
@@ -107,7 +107,7 @@ func main() {
 
 ---
 
-## 📦 Output:
+##  Output:
 
 ```bash
 [16:05:29] 192.168.0.30:57621 -> 192.168.0.255:57621 | UDP | 86 bytes
@@ -133,7 +133,7 @@ func main() {
 
 ---
 
-## ⚙️ Packet structure:
+##  Packet structure:
 
 ```golang
 type Packet struct {
@@ -162,7 +162,7 @@ Extra{
 
 ---
 
-## ✍️ From the Author
+##  From the Author
 
 Hi! I’m the author of **go-pcaplite**.  
 
